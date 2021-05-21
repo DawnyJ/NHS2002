@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NHS Class of 2002</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome Northland High School</h1>
+      <h1>Class of 2002</h1>
+    </header>
+
+    <nav>
+      <a href="#">Announcements</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+      <a href="#">Memories</a>
+    </nav>
+
+    <main>
+      <aside>
+        <h2>20 Year Reunion!</h2>
+        <p>
+          Complete all fields to cast your vote on how we bring in the class of 2002 20 year reunion celebration!
+        </p>
+        <form>
+          <h3>Make your selection:</h3>
+          <p>
+            <label for="username">Name:</label>
+            <input class="text-input" id="username" type="text" placeholder="First Last" />
+          </p>
+          <p>
+            <label for="email">E-mail:</label>
+            <input class="text-input" id="email" type="text" placeholder="me@example.com" />
+          </p>
+          <p class="flex-row">
+            <label for="expertise">Reunion Options:</label>
+            <select id="expertise">
+              <option>Staycation - Local Hotel</option>
+              <option selected>Hocking Hills</option>
+              <option>Gatlinburg</option>
+            </select>
+          </p>
+          <p>
+            <label for="comment">Comment:</label>
+            <textarea class="text-input" id="comment" placeholder="Add comment here!"></textarea>
+          </p>
+          <p class="flex-row">
+            <input class="checkbox" id="agreement" type="checkbox" />
+            <label for="agreement">I would like email updates</label>
+          </p>
+          <p>
+            <button>Submit</button>
+          </p>
+        </form>
+      </aside>
+
+      <div class="products">
+        <section class="card">
+          <header>Hocking Hills</header>
+          <img src="./assets/images/Hocking_Hills.jpg" alt="Liberty Lodge Cabin" />
+          <p>Price: TBD</p>
+        </section>
+        <section class="card">
+          <header>Gatlinburg</header>
+          <img src="./assets/images/Gatlinburg.jpg" alt="Gatlinburg, TN" />
+          <p>Price: TBD</p>
+        </section>
+        <section class="card">
+          <header>Local Staycation</header>
+          <img
+            src="./assets/images/Local_Hotel.jpg"
+            alt="Local Hotel"
+          />
+          <p>Price: TBD</p>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <h2>Sign up for Announcements!</h2>
+      <form>
+        <input type="text" placeholder="E-mail address" />
+        <button>Submit</button>
+      </form>
+    </footer>
+  </body>
+</html>
